@@ -4,3 +4,8 @@ h1, h2 {
 p{
 	font-family: "Quicksand", sans-serif;
 }
+
+table, th, td {
+    border: 1px solid black;
+	border-collapse: collapse;
+}
