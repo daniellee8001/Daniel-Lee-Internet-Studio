@@ -34,8 +34,4 @@ table, th, td {
     border: 1px solid black;
 	border-collapse: collapse;
 
-	.resized-img {
-  width: 130px;
-  height: 173px;
-}
 
