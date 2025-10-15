@@ -5,3 +5,8 @@ h1, h2 {
  p, ul, li {
   font-family: "Quicksand", sans-serif;
   font-size: 16px;
+
+body {
+  background-image: url('img/Tiles.jpg');
+  background-repeat: repeat;
+}
