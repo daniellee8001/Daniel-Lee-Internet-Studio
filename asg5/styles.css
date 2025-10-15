@@ -11,9 +11,10 @@ body {
   background-color: rgb(248, 245, 240);
   background-size: auto;
   background-repeat: repeat;
+  text-align: center;
 }
 
-h1, h2, p {
+h1, h2, p, ul {
   font-style: italic;
   text-align: center;
   margin: 30px auto;
