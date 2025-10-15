@@ -1,5 +1,10 @@
 * {
-    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+	color: white;
 }
 
 h1, h2 {
@@ -26,8 +31,7 @@ body {
      background-size: auto;
 	 background-image: url('../img/Waves.jpg');
 	 background-repeat: repeat;
-	 background-size: 1590px;
-	 opacity: 
+	 background-size: 1590px; 
      padding: 0 20px 20px 20px;
      margin: 0;
 }
