@@ -21,6 +21,7 @@ h1 {
 p, ul, li {
 	font-family: "Quicksand", sans-serif;
 	font-size: 20px
+}
 ul {
   list-style-position: inside;
 }
