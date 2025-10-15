@@ -24,6 +24,8 @@ p, ul, li {
 }
 ul {
   list-style-position: inside;
+  display: inline-block;
+  text-align: left;
 }
 	
 body {
