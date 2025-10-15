@@ -24,12 +24,15 @@ h1, h2 {
 
 h1 {
     font-size: 2em;
-	font-style: italic;
+    font-style: italic;
     text-align: center;
-    margin-bottom: 30px;
-    background-color: rgba(140, 162, 175);
+    margin: 30px auto;
+    background-color: rgba(140, 162, 175, 0.85);
     border-radius: 0 0 10px 10px;
-    padding: 10px;  
+    padding: 10px 20px;
+    width: fit-content;
+    max-width: 80%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 p, ul, li {
