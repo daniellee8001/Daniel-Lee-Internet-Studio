@@ -20,7 +20,7 @@ h1 {
 
 p, ul, li {
 	font-family: "Quicksand", sans-serif;
-	font-size: 20px
+	font-size: 16px
 }
 ul {
   list-style-position: inside;
@@ -34,6 +34,7 @@ body {
 	 background-size: 1590px; 
      padding: 0 20px 20px 20px;
      margin: 0;
+	 text-align: center;
 }
 article {
    max-width: 760px;
