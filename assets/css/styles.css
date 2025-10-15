@@ -24,9 +24,12 @@ h1, h2 {
 
 h1 {
     font-size: 2em;
-	border-bottom: 4px dotted white;
-    padding-top: 10px;
-    padding-bottom: 5px  
+	font-style: italic;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: rgba(140, 162, 175);
+    border-radius: 0 0 10px 10px;
+    padding: 10px;  
 }
 
 p, ul, li {
