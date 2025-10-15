@@ -16,7 +16,7 @@ h1, h2 {
   font-size: 20px;
 }
 
-h1, h2, ul, li {
+h1, h2, p {
   font-style: italic;
   text-align: center;
   margin: 30px auto;
