@@ -30,7 +30,6 @@ body {
      background-image:url('assets/img/Waves.jpg');
 	 background-image: repeat;
      z-index: 0;
-     pointer-events: none;
 }
 .content {
   position: relative;
