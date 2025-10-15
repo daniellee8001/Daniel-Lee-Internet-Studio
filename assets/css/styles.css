@@ -25,7 +25,7 @@ body {
      background-color: rgb(160,208, 231);
      background-size: auto;
 	 background-image: url('assets/img/Waves.jpg');
-	 background-image: repeat;
+	 background-repeat: repeat;
      padding: 0 20px 20px 20px;
      margin: 0;
 }
