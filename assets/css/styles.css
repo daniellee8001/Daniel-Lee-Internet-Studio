@@ -1,5 +1,6 @@
-/* styles.css */
-
-* {
-	font-family: Arial;
+h1, h2 {
+	font-family: "Libre Bodoni", serif;
+}
+p{
+	font-family: "Quicksand", sans-serif;
 }
