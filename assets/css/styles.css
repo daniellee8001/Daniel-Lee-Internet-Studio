@@ -1,6 +1,6 @@
 h1, h2 {
 	font-family: "Libre Bodoni", serif;
 }
-p {
+p, ul, li {
 	font-family: "Quicksand", sans-serif;
 }
