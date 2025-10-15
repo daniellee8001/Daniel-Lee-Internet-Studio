@@ -34,6 +34,22 @@
         <br>
         <input id="name" name="name" type="text" required minlength="2" maxlength="40">
 	  </form>
+	<form action="/submit-guest" method="post">
+  <fieldset>
+    <legend>Will you be bringing a guest?</legend>
+      <label>
+        <input type="radio" name="bringing_guest" value="yes" required>
+        Yes
+      </label>
+      <label>
+        <input type="radio" name="bringing_guest" value="no">
+        No
+      </label>
+        <br><br>
+      <button type="submit">Submit</button>
+  </fieldset>
+  </form>
+
 </body>
 </html>
  
