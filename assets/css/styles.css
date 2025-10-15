@@ -11,41 +11,28 @@ h1, h2 {
 	font-family: "Libre Bodoni", serif;
 }
 
-h1 {
-    font-size: 2em;
-    font-style: italic;
-    text-align: center;
-    margin: 30px auto;
-    background-color: rgba(140, 162, 175, 0.85);
-    border-radius: 0 0 10px 10px;
-    padding: 10px 20px;
-    width: fit-content;
-    max-width: 80%;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+ p, ul, li {
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
 }
 
-  p {
-	font-family: "Quicksand", sans-serif;
-	font-size: 20px
-
-	ul, li {
-	font-family: "Quicksand", sans-serif;
-	font-size: 20px
-	font-style: italic;
-    text-align: center;
-    margin: 30px auto;
-    background-color: rgba(140, 162, 175, 0.85);
-    border-radius: 0 0 10px 10px;
-    padding: 10px 20px;
-    width: fit-content;
-    max-width: 80%;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+h1, h2, p, ul, li {
+  font-style: italic;
+  text-align: center;
+  margin: 30px auto;
+  background-color: rgba(140, 162, 175, 0.85);
+  border-radius: 0 0 10px 10px;
+  padding: 10px 20px;
+  width: fit-content;
+  max-width: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+
 ul {
   display: inline-block;
   text-align: left;
-  padding-left: 1.2em; 
-  margin: 0
+  padding-left: 1.2em;
+  margin: 0 auto;
 }
 	
 body {
