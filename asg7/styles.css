@@ -1,10 +1,12 @@
-* {
-    text-shadow: /* Wanted the text to not clash with the light blue background so gave it "boldness" */
+h1, h2, p, a {
+    text-shadow:
     -1px -1px 1px #000,
      1px -1px 1px #000,
     -1px  1px 1px #000,
      1px  1px 1px #000;
-	color: white;
+    color: gray;
+}
+
 }
 body {
     font-family: 'Quicksand', sans-serif;
@@ -14,21 +16,25 @@ body {
     color: #333;
 }
 
-/* Flex container for main content + sidebar */
 .content-wrapper {
     display: flex;
     gap: 30px;
     align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-/* Main content (left side) */
+/* Main content */
 .main-content {
     flex: 2;
+	min-width: 0;
 }
 
-/* Sidebar (aside) */
+/* sidebar (aside) */
 aside {
-    flex: 1;
+	flex: 1;
+    min-width: 280px;
+    max-width: 400px;
     background-color: #f1f1f1;
     padding: 15px;
     border-radius: 8px;
@@ -51,9 +57,11 @@ h1, h2 {
     color: #b30000;
 }
 
-/* Final campaign section styling */
 .final-section {
     margin-top: 60px;
     padding-top: 30px;
     border-top: 2px solid #ccc;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
