@@ -1,5 +1,5 @@
 * {
-    text-shadow:
+    text-shadow: /* Wanted the text to not clash with the light blue background so gave it "boldness" */
     -1px -1px 1px #000,
      1px -1px 1px #000,
     -1px  1px 1px #000,
@@ -8,7 +8,7 @@
 }
 
 h1, h2, h3 {
-  color: rgb(108,182,204);
+  color: rgb(108,182,204); /* Chose a darker blue to fit with my color pallete */
   font-family: "Libre Bodoni", serif;
   border-bottom: 2px solid rgb(87,185,178);
   padding-top: 10px;
@@ -25,7 +25,7 @@ h1, h2, h3 {
  }
 
 .condensed {
-  max-width: 600px;
+  max-width: 600px; /* Purpose was to try to keep the text centered without needing to use the text-align centered tag */
   margin: 0 auto; 
   line-height: 1.6;
   padding: 0 20px; 
@@ -54,7 +54,7 @@ body {
   background-size: auto; 
   background-position: top left;
 
-  .text-with-image {
+  .text-with-image { /* Was a little confused on how to get the image to stay next to the paragraph but it now stays under the heading */
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -63,10 +63,10 @@ body {
 }
 
 .text-with-image img {
-  width: 100px; 
+  width: 100px; /* I wanted the image to be fairly small */
   height: auto;
-  flex-shrink: 0; /* prevent image from shrinking */
-  margin-top: 5px; /* align image slightly lower if needed */
+  flex-shrink: 0; 
+  margin-top: 5px; 
 }
 
    
