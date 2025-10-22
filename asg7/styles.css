@@ -6,7 +6,7 @@ h1, h2, p, a {
      1px  1px 1px #000;
     color: white;
 }
-
+/* I wasn't able to figure out how to get the fonts with the method you wanted us to do for this week so I just did the regular method */
 body {
     font-family: 'Quicksand', sans-serif;
     background-color: black;
@@ -29,7 +29,6 @@ body {
 	min-width: 0;
 }
 
-/* sidebar (aside) */
 aside {
 	flex: 1;
     min-width: 280px;
@@ -40,7 +39,6 @@ aside {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* General styling */
 .section {
     margin-bottom: 40px;
 }
