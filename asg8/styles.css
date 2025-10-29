@@ -1,4 +1,11 @@
-
+* {
+    text-shadow: /* Wanted the text to not clash with the light blue background so gave it "boldness" */
+    -1px -1px 1px #000,
+     1px -1px 1px #000,
+    -1px  1px 1px #000,
+     1px  1px 1px #000;
+	color: gray;
+}
 
 h1, h2 {
   color: #007b88; /* Chose a darker blue to fit with my color pallete */
@@ -7,14 +14,18 @@ h1, h2 {
   padding-bottom: 5px;
 }
 
- p, ul, li {
+ p, ul {
   color: white;
   font-family: "Quicksand", sans-serif;
   font-size: 1.1em;
   line-height: 150%;
   margin-bottom: 10px;
   margin-left: 80px;
- }
+}
+
+li {
+  margin-left: 20px;
+}
 
 .condensed {
   max-width: 600px; /* Purpose was to try to keep the text centered without needing to use the text-align centered tag */
