@@ -1,3 +1,4 @@
+/* My fonts */
 @font-face {
   font-display: swap;
   font-family: 'Aoboshi One';
@@ -14,23 +15,52 @@
   src: url('fonts/cormorant-garamond-v21-latin-500italic.woff2') format('woff2'); 
 }
 
+/* Fluid Type Scale*/
+:root {
+  --step--2: clamp(12px, 10px + 0.4vw, 14px);
+  --step--1: clamp(14px, 12px + 0.5vw, 16px);
+  --step-0:  clamp(16px, 14px + 0.6vw, 18px);
+  --step-1:  clamp(20px, 16px + 1vw, 24px);
+  --step-2:  clamp(26px, 20px + 1.5vw, 32px);
+  --step-3:  clamp(32px, 26px + 2vw, 40px);
+  --step-4:  clamp(40px, 32px + 2.5vw, 48px);
+}
+
+/* Styling for body itself */
 body {
   margin: 0;
   padding: 20px;
   background: #f3f3f3;
+  font-family: 'Cormorant Garamond', serif;
 }
 
+/* Headers/Paragraphs   */
 h1 {
+  font-size: var(--step-4);
+  font-family: 'Aoboshi One', serif;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 0.4em;
+}
+
+h2 {
+  font-size: var(--step-2);
+  font-family: 'Aoboshi One', serif;
+  margin-top: 0.5em;
+  margin-bottom: 0.3em;
+}
+
+p {
+  font-size: var(--step-0);
+  line-height: 1.6;
+  max-width: 70ch;
+  margin: 0 auto;
+  color: #333;
 }
 
 p.intro {
   text-align: center;
-  max-width: 800px;
-  margin: 0 auto 40px auto;
-}
-
+  margin-bottom: 40px;
+  max-width:
 
 .gallery {
   display: flex;
@@ -48,14 +78,13 @@ p.intro {
   text-align: center;
 }
 
-.member img {
+.member img { /* Image fixing some images need resizing */
   width: 100%;
   height: 200px;
   object-fit: cover;
   border-radius: 6px;
 }
-
+  
 .member h2 {
   margin: 10px 0 8px 0;
-  font-size: 1.2em;
 }
