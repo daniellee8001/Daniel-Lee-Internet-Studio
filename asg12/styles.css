@@ -13,3 +13,78 @@
   font-weight: 500;
   src: url('fonts/cormorant-garamond-v21-latin-500italic.woff2') format('woff2'); 
 }
+
+body {
+    background: linear-gradient(to bottom, #57b2c0 0%, #ffffff 100%); /* Personal color pallete used for domains assignment */
+    background-attachment: fixed;  
+    font-family: 'Cormorant Garamond', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f6f6f6;
+    color: #222;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Aoboshi One', sans-serif;
+    font-size: 2.5em;       /* scales with the body font */
+    letter-spacing: 0.03em;
+    margin: 0 0 10px 0;
+
+h2 {
+    font-family: 'Aoboshi One', sans-serif;
+    font-size: 1.4em;       /* Both these the first font */
+    margin: 12px 0 6px 0;
+    letter-spacing: 0.02em;
+
+  p {
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #444;
+    margin: 0 0 10px 0;
+  }
+
+  .summary-section {
+    text-align: center;
+    padding: 40px 20px;
+    background: #ffffff;
+  }
+
+  .page-title {
+    font-size: 2.5em;   
+}
+
+  .summary-text {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+}
+
+  .movie-item {
+    width: 300px;
+    text-align: center;
+}
+
+  .poster {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    background-color: #ddd;
+}
+
+  .movie-title {
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+
+  .movie-description {
+    font-size: 0.95em;
+    line-height: 1.4em;
+}
